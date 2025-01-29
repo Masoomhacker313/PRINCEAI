@@ -15,7 +15,7 @@ import dotenv from 'dotenv'
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
 global.botNumberCode = "" //Example: +923092668108
-global.confirmCode = "" 
+global.confirmCode = "9203644880949" 
 
 
 //💌------------------------------------------💌
@@ -39,7 +39,7 @@ global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
 global.apis = 'https://delirius-apiofc.vercel.app'
 global.openai_key = 'sk-...OzYy' /* Get your ApiKey at this link: https://platform.openai.com/account/api-keys */
-global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
+global.openai_org_id = 'Prince~scl/fi/0xfw64ubqqarismyvdot3/qSRpHPhN1Y.json?rlkey=db49jzkm6w5d18z2kw9363q2k&dl=0'
 //💌------------------------------------------💌
 
 
@@ -133,7 +133,7 @@ global.wm = process.env.BOT_NAME
 global.botname = process.env.BOT_NAME
 global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
-global.author = 'Prince♥️' 
+global.author = 'MaSoom ♥️' 
 global.princeig = 'https://www.instagram.com' 
 global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
@@ -163,7 +163,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER;
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923644880949,Prince");
 }
 
 const ownerlist = ownervb.split(',');
